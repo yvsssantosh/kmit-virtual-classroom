@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Teacherdata]
+(
+	[TId] VARCHAR(50) NOT NULL PRIMARY KEY,
+	[Tname] CHAR(100) NOT NULL PRIMARY KEY, 
+    [Department] CHAR(10) NOT NULL PRIMARY KEY
+
+)
